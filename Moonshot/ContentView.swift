@@ -24,7 +24,7 @@ struct ContentView: View {
                     
                     ForEach(missions)
                     { mission in NavigationLink {
-                        Text("detail view")
+                        MissionView(mission: mission)
                     }
                      label:  {
                         VStack{
