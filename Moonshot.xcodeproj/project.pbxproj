@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21005E312C1CF2E90012A491 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21005E302C1CF2E90012A491 /* AstronautView.swift */; };
 		216513092C1A0AD30096C526 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216513082C1A0AD30096C526 /* MoonshotApp.swift */; };
 		2165130B2C1A0AD30096C526 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165130A2C1A0AD30096C526 /* ContentView.swift */; };
 		2165130D2C1A0AD50096C526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2165130C2C1A0AD50096C526 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21005E302C1CF2E90012A491 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		216513052C1A0AD30096C526 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216513082C1A0AD30096C526 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		2165130A2C1A0AD30096C526 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				216513082C1A0AD30096C526 /* MoonshotApp.swift */,
+				21005E302C1CF2E90012A491 /* AstronautView.swift */,
 				2165130A2C1A0AD30096C526 /* ContentView.swift */,
 				21D0374C2C1B59F2002D49A4 /* Color-Theme.swift */,
 				21D0374E2C1B5E60002D49A4 /* MissionView.swift */,
@@ -282,6 +285,7 @@
 			files = (
 				21D0374F2C1B5E60002D49A4 /* MissionView.swift in Sources */,
 				216513372C1A0EBC0096C526 /* astronaut.swift in Sources */,
+				21005E312C1CF2E90012A491 /* AstronautView.swift in Sources */,
 				21D0374D2C1B59F2002D49A4 /* Color-Theme.swift in Sources */,
 				2165130B2C1A0AD30096C526 /* ContentView.swift in Sources */,
 				216513092C1A0AD30096C526 /* MoonshotApp.swift in Sources */,
