@@ -29,11 +29,28 @@ struct MissionView:  View{
                         width, axis in width*0.6
                     }
                 
+              
+                
                 VStack(alignment: .leading) {
+                    Rectangle()
+                        .foregroundColor(.lightBackground)
+                        .frame(height: 2)
+                        .padding(.vertical)
+                    
                     Text("Mission Highlights")
                         .font(.title.bold())
                         .padding(.bottom, 5)
                     Text(mission.description)
+                    
+                    Rectangle()
+                        .foregroundColor(.lightBackground)
+                        .frame(height: 2)
+                        .padding(.vertical)
+                    
+                    Text("Crew")
+                        .font(.title.bold())
+                        .padding(.bottom, 5)
+                    
                 }
                 
                 
