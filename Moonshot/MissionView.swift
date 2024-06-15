@@ -28,14 +28,14 @@ struct MissionView:  View{
                     .containerRelativeFrame( .horizontal ){
                         width, axis in width*0.6
                     }
-                
+                Text("Launch: \(mission.formattedLaunchDate)").font(.title2).padding()
               
                 
                 VStack(alignment: .leading) {
                     Rectangle()
                         .foregroundColor(.lightBackground)
                         .frame(height: 2)
-                        .padding(.vertical)
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                     
                     Text("Mission Highlights")
                         .font(.title.bold())
